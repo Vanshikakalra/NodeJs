@@ -9,6 +9,5 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'apt install nodejs'
-        sh 'apt install npm'
+        echo 'vans'
       }}}}
