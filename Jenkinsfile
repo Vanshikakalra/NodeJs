@@ -9,5 +9,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat 'npm install'
+        sh 'sudo apt install nodejs'
+        sh 'sudo apt install npm'
       }}}}
